@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 '''
-什么值得买自动签到脚本
+smzdm auto-sign
 '''
 import os
 import json
@@ -30,7 +30,7 @@ class SMZDM_Bot(object):
         '''为session添加cookie.
         
         Args:
-            cookie: 什么值得买登录cookie.
+            cookie: smzdm cookie.
         '''
         self.session.headers['Cookie'] = cookie
 
